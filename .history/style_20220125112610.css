@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tablica {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wynik {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid blueviolet;
+}
+.timer {
+    border: 3px solid aquamarine;
+}
+
+.menu {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+
+    font-size: 0;
+}
+.btnsH {
+display: flex;
+justify-content: flex-start;
+}
+.btnsA {
+    display: flex;
+    justify-content: flex-end;
+}
+.btnsH div {
+    width: 3em;
+}
+.btnsA div {
+    width: 3em;
+}

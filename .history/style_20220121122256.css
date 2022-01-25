@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+     height: 100vh;
+     width: 100vw;
+}
+.score {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    height: 25vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.btnsH div {
+    width: 5em;
+    padding: 0;
+}
+.btnsH {
+    width: 50vh;
+
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.btnsA {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.btn1h , .btn2h , .btn3h {
+    height: 5em;
+    width: 5em;
+}
+.btn1a , .btn2a , .btn3a {
+    height: 5em;
+    width: 5em;
+}

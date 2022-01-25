@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns {
+    display: flex;
+}
+.btn1h,.btn2h,.btn3h {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.btn1a,.btn2a,.btn3a {
+    align-items: flex-end;
+    justify-content: flex-end;
+}
